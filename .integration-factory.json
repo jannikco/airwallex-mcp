@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "abb76515adb8b00a9aa01ec7d4c718306c65f751141789639921f4e0cd5c9e53",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://raw.githubusercontent.com/airwallex/airwallex-openapi/main/openapi/client-api/2026-08-21/airwallex-openapi-2026-08-21.json"
+  ],
+  "id": "airwallex-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Airwallex MCP setup and connection checker",
+  "description": "Generate Airwallex MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "airwallex",
+  "appName": "Airwallex",
+  "providerDocs": "https://raw.githubusercontent.com/airwallex/airwallex-openapi/main/openapi/client-api/2026-08-21/airwallex-openapi-2026-08-21.json",
+  "providerWebsite": "https://www.airwallex.com/",
+  "authentication": {
+    "type": "token_exchange",
+    "requiredCredentialFields": [
+      "provider_exchange_credentials"
+    ],
+    "requiredHeaderNames": [
+      "x-client-id",
+      "x-api-key"
+    ],
+    "helpUrl": "https://www.airwallex.com/docs/developer-tools/api/manage-api-keys",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-airwallex-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
