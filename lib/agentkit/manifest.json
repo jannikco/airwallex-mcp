@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-airwallex",
+      "description": "Connect AI agents to Airwallex using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-airwallex/SKILL.md": "717a4237ed0c1b2dc108444a9d89a70c47e7af224a413c85b243932d251d0128"
+  }
+}

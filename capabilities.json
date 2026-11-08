@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "airwallex-mcp",
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "artifactType": "Setup",
+  "credential": "PIPMCP_API_KEY",
+  "connectorId": "airwallex",
+  "executionAuthority": "https://pipmcp.com/api/v1",
+  "inventory": "authenticated-dynamic",
+  "verification": {
+    "transport": "Tested",
+    "providerExecution": "Documented"
+  },
+  "skills": [
+    "pipmcp-airwallex"
+  ],
+  "offlineMode": "plan-and-fixtures-only",
+  "historicalVersions": "Older MIT local runtimes remain in Git history"
+}
